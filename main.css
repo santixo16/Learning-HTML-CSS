@@ -1,0 +1,208 @@
+body{
+    background-color:#dad5d5ff;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#menu_principal{
+    list-style-type: none;
+    margin: 0;
+    padding:10px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+
+.elementos_list{
+    color: white;
+    display: inline;
+}
+
+#parrafo{
+    color:midnightblue;
+}
+
+.span{
+    color: darkgreen;
+}
+
+.caja{
+    margin:8px;
+    padding: 8px;
+    border-style:inset outset;
+    border-width: 8px;
+    border-color: #faa;
+    background-color: #aaf;
+    border-radius: 6px;
+    height: 50px;
+    width: 100px;
+}
+
+.ejercicio{
+    margin: 8px;
+    padding: 8px;
+    border-top:none;
+    border-left: outset;
+    border-bottom: outset;
+    border-right: outset;
+    border-radius: 2px;
+    height:fit-content;
+    width: 400px;
+}
+
+#acept{
+    border: 0px;
+    padding: 5px;
+    background-color:royalblue;
+    color: white;
+}
+
+#cancel{
+    border: 0px;
+    padding: 5px;
+    background-color: darkgray;
+    color: white;
+}
+
+.parrafos{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:black;
+    text-align: justify;
+    text-indent: 15px; /* SANGRIA*/
+    line-height: 1.5;
+    word-spacing: 8px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 1); 
+    /*PRIMERO ES ESPACIADO HACIA LA DERECHA Y SEGUNDO HACIA ABAJO. TERCERA NIVEL DE DIFUMINACION*/
+}
+
+#links{
+    text-align: center;
+}
+
+a{
+    background-color: black;
+    color: white;
+    text-decoration:overline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+a:link{ /*ESTILOS CUANDO EL LINK NO HA SIDO VISITADO*/
+    color: white;
+}
+
+/*ESTILOS CUANDO EL LINK YA HA SIDO VISITADO
+a:visited{ 
+
+}
+*/ 
+
+a:active{ /*CUANDO SE DA CLICK EN EL LINK*/
+    background-color: white;
+    color: black;
+}
+
+a:hover{/*HOVER: CUANDO EL MOUSE ESTÁ POR ENCIMA*/
+    text-decoration: underline; 
+    background-color: rgb(155, 151, 151);
+    color: black;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: #faa;
+}
+
+td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th{
+    background-color: #846bbd;
+    color: white;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#invisible{
+    display: none;
+}
+
+span{
+    display: block;
+}
+
+#over{
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+
+#propiedad_float{
+    float: left;
+}
+
+#propiedad_float:hover{
+    opacity: 0.85; /*opacity goes with 0-1 escale*/
+}
+
+#father_son p{
+    color: #42435d;
+}
+
+.dropdown-btn{
+    color: white;
+    background-color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content .drop{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content .drop:hover{
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-btn{
+    background-color: rgb(41, 39, 39);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
