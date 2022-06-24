@@ -1,0 +1,13 @@
+body{
+    background-color: #eee;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 90px 50px 120px; /*Rows: Altura de las filas (height) columns: ancho de la columna (width)*/
+    grid-template-rows: 50px;
+}
+
+.element{
+    background-color: white;
+}
